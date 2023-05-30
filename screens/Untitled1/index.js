@@ -10,7 +10,7 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }}><View style={styles.KTyVvDVA}></View><Text style={styles.mNZIrFHV}>Lorem ipsum…</Text></ScrollView>
-    </SafeAreaView>;
+    <View style={styles.QxAVQQkY}></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -30,6 +30,13 @@ const styles = StyleSheet.create({
     lineHeight: 14,
     fontSize: 14,
     borderRadius: 0
+  },
+  QxAVQQkY: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled1;
